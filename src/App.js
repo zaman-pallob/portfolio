@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./contents/resources/App.css";
 import { Link, Route, Switch } from 'react-router-dom';
 
+import AboutMe from './contents/AboutMe';
 export class App extends Component {
   render() {
 
@@ -13,12 +14,14 @@ export class App extends Component {
             <li>Resume</li>
             <li>Projects</li>
             <li>Others</li>
-            <li>AboutMe</li>
+            <li><Link to="/about" className="link">AboutMe</Link></li>
           </ul>
         </div>
         <div className="maincontents">
-          this is content
-      </div>
+          <Switch>
+            <Route path="/about" component={AboutMe} />
+          </Switch>
+        </div>
       </div>
     )
 

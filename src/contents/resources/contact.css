@@ -1,0 +1,74 @@
+.contact_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: red double 10px;
+  margin: 1% 10%;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* parameter  x offset y offset  blur radius spread radius color*/
+}
+.cell {
+  padding: 5px;
+  margin: 2% 2%;
+  height: 45%;
+  width: 45%;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 5px;
+}
+.cell h1 {
+  font-size: 2rem;
+  color: red;
+}
+
+.cell img {
+  width: 50%;
+  height: 45%;
+  box-shadow: 5px -5px 10px 2px rgba(0, 0, 0, 0.5); /* parameter  x offset y offset  blur radius spread radius color*/
+}
+.contact_link i {
+  color: blue;
+  padding: 10px;
+  font-size: 3rem;
+  text-shadow: 4px -4px aqua;
+}
+.com p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+}
+.details table {
+  width: 100%;
+  padding: 1%;
+}
+
+table td {
+  text-align: justify;
+  padding: 2%;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .cell {
+    text-align: center;
+  }
+  .cell h1 {
+    font-size: 1.3rem;
+  }
+
+  .cell img {
+    width: 80%;
+  }
+  .com p {
+    font-size: 1rem;
+  }
+  .details table {
+    width: 80%;
+    padding: 1%;
+  }
+  table td {
+    text-align: left;
+    padding: 2%;
+    font-size: 0.9rem;
+  }
+}

@@ -6,6 +6,10 @@
   justify-content: center;
   flex-direction: column;
   margin: 0 0;
+  
+}
+
+.navbar{
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -19,12 +23,6 @@
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.navbar{
-background: #c0c0aa;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 text-align: right;
 padding-right: 1%;
 font-family: 'Times New Roman', Times, serif;
@@ -34,19 +32,25 @@ font-size: 1rem;
 
 .navbar ul{
   list-style: none;
+  color: white;
 }
 
 .navbar li{
 display: inline-block;
 padding: 0.4% 1.5%;
 }
-
+.link{
+  text-decoration: none;
+  color:white;
+}
 .navbar li:hover{
-  border-radius: 50%;
+  border-radius: 15px;
   padding: 0.4% 1.5%;
   color:white;
-  background-color: rebeccapurple;
+  background-color:teal;
 }
+
+
 
 
 @media(max-width:600px){
