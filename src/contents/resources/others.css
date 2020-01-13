@@ -1,0 +1,248 @@
+
+
+@media(min-width:791px){
+  .GRID {
+    margin: 5px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+    width: 47%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 400px;
+    height: 400px;
+  }
+  .CELL table{
+    height: fit-content;
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  
+  
+}
+
+@media(max-width:790px){
+  .GRID {
+    margin: 5px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+ 
+    padding: 5px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 570px;
+  }
+  .CELL table{
+    height: fit-content;
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  
+  
+}
+
+@media(max-width:700px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+ 
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 450px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  
+}
+
+
+@media(max-width:600px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+ 
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 300px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  
+}
+
+
+@media(max-width:400px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    
+    width: 250px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+  
+}
+
+@media(max-width:335px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 220px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.6rem;
+    padding: 10px;
+  }
+  
+}
+
+@media(max-width:300px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+  
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 180px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.5rem;
+    padding: 10px;
+  }
+  
+}
+@media(max-width:280px){
+  .GRID {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background:lightblue;
+    border-radius: 10px;
+  
+  }
+  .CELL{
+ 
+    padding: 10px;
+    margin: 5px;
+  }
+  .CELL img{
+    width: 150px;
+  }
+  .CELL table{
+    margin: auto;
+  }
+  .CELL table td{
+    text-align: left;
+    font-size: 0.4rem;
+    padding: 10px;
+  }
+  
+}
