@@ -5,11 +5,18 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0 0;
+  margin: 0;
   
 }
 
 .navbar{
+  width: 100%;
+  height: 50px;
+
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.5); /* parameter  x offset y offset  blur radius spread radius color*/
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -23,43 +30,107 @@
     #302b63,
     #0f0c29
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-text-align: right;
-padding-right: 1%;
 font-family: 'Times New Roman', Times, serif;
 font-size: 1rem;
 
+
 }
 
-.navbar ul{
-  list-style: none;
-  color: white;
-}
+.navbar a{
 
-.navbar li{
-display: inline-block;
-padding: 0.4% 1.5%;
-}
-.link{
   text-decoration: none;
   color:white;
-}
-.navbar li:hover{
-  border-radius: 15px;
-  padding: 0.4% 1.5%;
-  color:white;
-  background-color:teal;
+ 
+  margin: auto;
 }
 
+.maincontents{
+  margin-top: 60px;
+  height: max-content;
+  box-sizing: content-box;
+  text-align: center;
+}
+@media(min-width:601px){
 
+  .navbar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content:flex-end;
+    
+  }
+  .navbar a{
+    padding: 10px;
+    margin: 4px;
+  }
+  .navbar a:hover{
+    padding: 10px;
+    margin: 4px;
+    background: teal;
+    border-radius: 5px;
+  }
+}
 
 
 @media(max-width:600px){
-
   .navbar{
-    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 45px;
+    display: flex;
+    justify-content:center;
+    flex: 5;
+  }
+  .navbar a{
+    flex: 1;
+    padding: 5px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 2px;
+    font-size: 0.95rem;
+    background:teal;
   }
 
 }
+@media(max-width:290px){
+  .navbar{
+    width: 100%;
+    margin: auto;
+    height: 45px;
+    display: flex;
+    justify-content:stretch;
+    flex: 5;
+  }
+  .navbar a{
+    flex: 1;
+    padding: 5px 2px;
+    width: 30px;
+    margin: 2px 2px;
+    border-radius: 2px;
+    font-size: 0.65rem;
+    background:teal;
+  }
 
+}
+@media(max-width:220px){
+  .navbar{
+    width: 100%;
+    margin: auto;
+    height: 45px;
+    display: flex;
+    justify-content:stretch;
+    flex: 5;
+  }
+  .navbar a{
+    flex: 1;
+    padding: 5px 1px;
+    width: 20px;
+    margin: 2px 1px;
+    border-radius: 2px;
+    font-size: 0.45rem;
+    background:teal;
+  }
+
+}
 
 
