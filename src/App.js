@@ -4,7 +4,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import AboutMe from './contents/AboutMe';
 import Home from './contents/Home';
 import Other from './contents/Others';
-
+import Project from './contents/Projects';
 export class App extends Component {
   render() {
 
@@ -20,7 +20,7 @@ export class App extends Component {
         <div className="maincontents">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/projects" component={AboutMe} />
+            <Route path="/projects" component={Project} />
             <Route path="/others" component={Other} />
             <Route path="/about" component={AboutMe} />
             <Redirect to="/" />

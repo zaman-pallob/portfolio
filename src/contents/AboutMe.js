@@ -30,7 +30,7 @@ export class AboutMe extends Component {
           </div>
         </div>
         <div className="cell">
-          <h4>Details</h4>
+          <h4>Personal Info</h4>
           <hr />
           <div className="details">
             <table>

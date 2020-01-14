@@ -1,0 +1,55 @@
+.project_maingrid {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  padding: 5px;
+  margin: 2% 2%;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5); /* parameter  x offset y offset  blur radius spread radius color*/
+  transition: 0.3s;
+  background: lightblue;
+  text-align: center;
+  border-radius: 5px;
+}
+img {
+  height: 150px;
+  padding-bottom: 2%;
+}
+.project p {
+  font-size: 1.2rem;
+}
+.project .links {
+  background: mediumspringgreen;
+  display: flex;
+  margin: 0;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: blue;
+  padding: 5px;
+}
+
+.links a:hover {
+  color: red;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.med{
+  background:dodgerblue;
+  padding: 1%;
+  width: fit-content;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+}
