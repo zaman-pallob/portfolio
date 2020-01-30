@@ -1,0 +1,169 @@
+.View{
+    display: flex;
+    margin: 0 0;
+    padding: 5px;
+    height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subview1{
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+  
+
+}
+
+
+.subview2{
+  width: 65%;
+  background:#323232;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  
+ 
+}
+
+.educationgrid{
+    line-height: 10px;
+    width:60% ;
+    margin:2% auto ;
+}
+
+
+.educationgrid .uni{
+    font-size: 1.5rem;
+}
+.deg{
+    font-size: 0.9rem;
+}
+
+.skillgrid{
+    width: 60%;
+    margin:2% auto ;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+
+
+@media(max-width:380px){
+    .he{
+        font-size: 1rem;
+    }
+    .educationgrid{
+        width: 100%;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  .educationgrid .uni{
+      font-size: 0.7rem;
+
+  }
+  .educationgrid .sub ,.dura ,.deg{
+    font-size: 0.55rem;
+    
+  }
+
+  .skillgrid{
+      width: 100%;
+  }
+
+  .skillgrid .det{
+      font-size: 0.55rem;
+      text-align: left;
+      padding-top: 10px;
+  }
+
+  .subview1 img{
+      height: 170px;
+  }
+
+
+  
+}
+@media(max-width:550px){
+   
+    .he{
+        font-size: 1.3rem;
+    }
+    .educationgrid{
+        width: 100%;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  .educationgrid .uni{
+      font-size: 0.95rem;
+      line-height: 13px;
+
+  }
+  .educationgrid .sub ,.dura ,.deg{
+    font-size: 0.8rem;
+    padding-top: 2px;
+    
+  }
+
+  .skillgrid{
+      width: 100%;
+  }
+
+  .skillgrid .det{
+      font-size: 0.8rem;
+      text-align: left;
+      padding-top: 10px;
+  }
+
+  .subview1 img{
+      height: 210px;
+  }
+
+
+  
+}
+
+
+@media(min-width:550px){
+   
+    .he{
+        font-size: 1.9rem;
+    }
+    .educationgrid{
+        width: 100%;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  .educationgrid .uni{
+      font-size: 1rem;
+      line-height: 13px;
+
+  }
+  .educationgrid .sub ,.dura ,.deg{
+    font-size: 0.9rem;
+    padding-top: 5px;
+    
+  }
+
+  .skillgrid{
+      width: 100%;
+  }
+
+  .skillgrid .det{
+      font-size: 0.9rem;
+      text-align: left;
+      padding-top: 10px;
+  }
+
+  .subview1 img{
+      height: 300px;
+  }
+
+
+  
+}
